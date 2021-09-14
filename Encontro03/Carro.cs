@@ -10,7 +10,24 @@ namespace Encontro03
     {
         public bool Conversivel { get; set; }
 
-        public Carro()
+        public override void Desligar()
+        {
+            Console.WriteLine("Desligando o Carro.");
+        }
+
+        public override void ImprimirDados()
+        {
+            base.ImprimirDados();
+            Console.WriteLine("Atributos da Classe Carro.");
+            Console.WriteLine("Conversivel: {0}", this.Conversivel);
+        }
+
+        public override void Ligar()
+        {
+            Console.WriteLine("Ligando o Carro.");
+        }
+
+        public Carro(int codigoAoCriar) : base(codigoAoCriar)
         { }
     }
 }

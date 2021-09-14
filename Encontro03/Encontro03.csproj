@@ -46,6 +46,9 @@
     <Compile Include="Aviao.cs" />
     <Compile Include="Caminhao.cs" />
     <Compile Include="Carro.cs" />
+    <Compile Include="ILocacao.cs" />
+    <Compile Include="Locacao.cs" />
+    <Compile Include="LocacaoDeCarros.cs" />
     <Compile Include="Medidas.cs" />
     <Compile Include="Motocicleta.cs" />
     <Compile Include="Navio.cs" />

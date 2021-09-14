@@ -14,7 +14,16 @@ namespace Encontro03
 
         public int QtdDePortas { get; set; }
 
-        public Medidas()
+        public override void ImprimirDados()
+        {
+            base.ImprimirDados();
+            Console.WriteLine("- Atributos da Classe Medidas.");
+            Console.WriteLine("- Altura: {0}", this.Altura);
+            Console.WriteLine("- Comprimento: {0}", this.Comprimento);
+            Console.WriteLine("- QtdDePortas: {0}", this.QtdDePortas);
+        }
+
+        public Medidas(int codigoAoCriar) : base(codigoAoCriar)
         { }
     }
 }

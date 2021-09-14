@@ -1,53 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Encontro03.Carro">
-    <Position X="4" Y="8.5" Width="3" />
+    <Position X="4" Y="9" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAACAAQAAAAAA=</HashCode>
       <FileName>Carro.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Motocicleta">
-    <Position X="4.25" Y="5.5" Width="3" />
+    <Position X="4.25" Y="6" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAACAAQAAAAAA=</HashCode>
       <FileName>Motocicleta.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Caminhao">
-    <Position X="7.25" Y="8.5" Width="3" />
+    <Position X="7.25" Y="9" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAACAAQAAAAAA=</HashCode>
       <FileName>Caminhao.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Aviao">
-    <Position X="13.5" Y="8.5" Width="2.75" />
+    <Position X="13.5" Y="9" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAKCAAQAAAAAA=</HashCode>
       <FileName>Aviao.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Navio">
-    <Position X="10.5" Y="8.5" Width="2.75" />
+    <Position X="10.5" Y="9" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAACAAQAAAAAA=</HashCode>
       <FileName>Navio.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Veiculo">
     <Position X="7.25" Y="0.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAQAAAQAAAAAAAAAAAAEggAAQACgAQIEAAIA=</HashCode>
+      <HashCode>AAABAAIAAQAAAQAAAAAAAAAAAAEggAAQACgAQIEAAIA=</HashCode>
       <FileName>Veiculo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Encontro03.Medidas">
-    <Position X="10.5" Y="5.5" Width="2.75" />
+    <Position X="10.5" Y="6" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAIAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAgAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Medidas.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Encontro03.LocacaoDeCarros">
+    <Position X="4" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAwEAAAAAAAAAEAAAAQAAIAAAAAA=</HashCode>
+      <FileName>LocacaoDeCarros.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CarroParaLocacao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Encontro03.Locacao">
+    <Position X="0.5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAIAAAAABAEAAAUBAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Locacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Encontro03.ILocacao">
+    <Position X="0.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAgEEAAAUAAAAFAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ILocacao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

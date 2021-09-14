@@ -8,7 +8,9 @@ namespace Encontro03
 {
     public abstract class Veiculo
     {
-        public int Codigo { get; set; }
+        protected int codigo;
+
+        public int Codigo { get => this.codigo; }
 
         public string Autonomia { get; set; }
 
@@ -28,17 +30,29 @@ namespace Encontro03
 
         public string TipoDeMotor { get; set; }
 
-        public void Desligar()
-        { }
+        public abstract void Desligar();
 
-        public void ImprimirDados()
-        { }
+        public virtual void ImprimirDados()
+        {
+            Console.WriteLine("# Atributos da Classe Veículo");
+            Console.WriteLine("# Codigo: {0}", this.codigo);
+            Console.WriteLine("# Autonomia: {0}", this.Autonomia);
+            Console.WriteLine("# Cor: {0}", this.Cor);
+            Console.WriteLine("# Data de Fabricação: {0}", this.DataDeFabricacao.ToString());
+            Console.WriteLine("# Modelo: {0}", this.Modelo);
+            Console.WriteLine("# Nome: {0}", this.Nome);
+            Console.WriteLine("# Numero de Chassi: {0}", this.NumeroDeChassi);
+            Console.WriteLine("# Tipo de Câmbio: {0}", this.TipoDeCambio);
+            Console.WriteLine("# Tipo de Combustível: {0}", this.TipoDeCombustivel);
+            Console.WriteLine("# Tipo de Motor: {0}", this.TipoDeMotor);
+        }
 
-        public void Ligar()
-        { }
+        public abstract void Ligar();
 
-        public Veiculo()
-        { }
+        public Veiculo(int codigoAoCriar)
+        {
+            this.codigo = codigoAoCriar;
+        }
 
     }
 }
