@@ -48,7 +48,11 @@
     <Compile Include="Carro.cs" />
     <Compile Include="ILocacao.cs" />
     <Compile Include="Locacao.cs" />
-    <Compile Include="LocacaoDeCarros.cs" />
+    <Compile Include="LocacaoDeAviao.cs" />
+    <Compile Include="LocacaoDeCaminhao.cs" />
+    <Compile Include="LocacaoDeCarro.cs" />
+    <Compile Include="LocacaoDeMotocicleta.cs" />
+    <Compile Include="LocacaoDeNavio.cs" />
     <Compile Include="Medidas.cs" />
     <Compile Include="Motocicleta.cs" />
     <Compile Include="Navio.cs" />

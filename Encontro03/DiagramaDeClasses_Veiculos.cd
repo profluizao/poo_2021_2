@@ -49,11 +49,19 @@
       <FileName>Medidas.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Encontro03.LocacaoDeCarros">
-    <Position X="4" Y="13" Width="2.75" />
+  <Class Name="Encontro03.LocacaoDeCarro">
+    <Position X="1.5" Y="13" Width="2.75" />
+    <AssociationLine Name="CarroParaLocacao" Type="Encontro03.Carro" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="13" />
+        <Point X="3.75" Y="12.208" />
+        <Point X="5.625" Y="12.208" />
+        <Point X="5.625" Y="11.261" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAwEAAAAAAAAAEAAAAQAAIAAAAAA=</HashCode>
-      <FileName>LocacaoDeCarros.cs</FileName>
+      <FileName>LocacaoDeCarro.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="CarroParaLocacao" />
@@ -66,6 +74,50 @@
       <HashCode>AAQAAAgAAAAIAAAAABAEAAAUBAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Locacao.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Encontro03.LocacaoDeMotocicleta">
+    <Position X="4.75" Y="13" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAgEAAAAIAAAAEAAAAAAAIAAAAAA=</HashCode>
+      <FileName>LocacaoDeMotocicleta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MotocicletaParaLocacao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Encontro03.LocacaoDeCaminhao">
+    <Position X="8.5" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEQAAAAEAAAEAAAAAAAIAAAAAA=</HashCode>
+      <FileName>LocacaoDeCaminhao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CaminhaoParaLocacao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Encontro03.LocacaoDeNavio">
+    <Position X="12" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAAgEAAAAAAAAAEAAAAAAAIAAAAAA=</HashCode>
+      <FileName>LocacaoDeNavio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NavioParaLocacao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Encontro03.LocacaoDeAviao">
+    <Position X="15" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEAAAAAAAAAEAEAAAAAIAAAAQA=</HashCode>
+      <FileName>LocacaoDeAviao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AviaoParaLocacao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Encontro03.ILocacao">
     <Position X="0.75" Y="0.75" Width="2.75" />

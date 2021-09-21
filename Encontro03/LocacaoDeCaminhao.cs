@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace Encontro03
 {
-    public class LocacaoDeCarros : Locacao, ILocacao
+    public class LocacaoDeCaminhao : Locacao, ILocacao
     {
-        private Carro carroParaLocacao;
-        public Carro CarroParaLocacao 
-        { 
-            get => this.carroParaLocacao; 
-            set => this.carroParaLocacao = value; 
+        private Caminhao caminhaoParaLocacao;
+
+        public Caminhao CaminhaoParaLocacao
+        {
+            get => this.caminhaoParaLocacao;
+            set => this.caminhaoParaLocacao = value;
         }
-        public void Cancelar()
+
+        public LocacaoDeCaminhao() : base()
+        { }
+
+        public void Efetuar()
         {
             throw new NotImplementedException();
         }
@@ -24,12 +29,12 @@ namespace Encontro03
             throw new NotImplementedException();
         }
 
-        public void Efetuar()
+        public void Renovar()
         {
             throw new NotImplementedException();
         }
 
-        public void Renovar()
+        public void Cancelar()
         {
             throw new NotImplementedException();
         }
